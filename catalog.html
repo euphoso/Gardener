@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Каталог — Gardener</title>
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <a href="index.html" class="mainHeader"><h1>Gardener</h1></a>
+
+            <button class="burgerBtn" id="burgerBtn">☰</button>
+            <nav class="navigation" id="navigation">
+                <ul class="navList">
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="menuElement"><a href="catalog.html" class="active">Каталог</a></li>
+                    <li class="menuElement"><a href="blog.html">Блог</a></li>
+                    <li class="menuElement"><a href="contacts.html">Контакты</a></li>
+                    <li class="menuElement"><a href="calendar.html">Календарь</a></li>
+                </ul>
+            </nav>
+
+            <div class="headerInteraction">
+                <div class="searchField">
+                    <input type="text" placeholder="Поиск..." class="search">
+                </div>
+                <div class="cartField">
+                    <span class="cart">🛒</span>
+                    <sup class="counter">0</sup>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main class="main">
+        <h2 class="blockHeader">Каталог товаров</h2>
+        <div class="catalogContainer">
+            <aside>
+                <div class="filterMenu">
+                    <p class="filterHeader"><b>Сезонность</b></p>
+                    <hr class="filterLine">
+                    <p class="activeFilter filterElement">Все сезоны</p>
+                    <p class="filterElement">Весна</p>
+                    <p class="filterElement">Лето</p>
+                    <p class="filterElement">Осень</p>
+                    <p class="filterHeader"><b>Категории</b></p>
+                    <hr class="filterLine">
+                    <p class="filterElement">Семена</p>
+                    <p class="filterElement">Саженцы</p>
+                    <p class="filterElement">Инструменты</p>
+                </div>
+            </aside>
+            <section class="productsGridCatalog">
+                <article class="productCard">
+                    <img src="images.png" alt="Изображение" class="cardImage">
+                    <h3>Семена Редиса</h3>
+                    <p class="desc">Вес: 10г. Ранний сорт.</p>
+                    <p class="price">45 ₽</p>
+                    <a href="product.html"><button class="prodButton infButton">Подробнее</button></a>
+                    <button class="btn buy inCartBtn" data-name="Семена Редиса">В корзину</button>
+                </article>
+
+                <article class="productCard">
+                    <img src="images.png" alt="Изображение" class="cardImage">
+                    <h3>Удобрение "Лето"</h3>
+                    <p class="desc">Объем: 1л. Для роста.</p>
+                    <p class="price">320 ₽</p>
+                    <a href="product.html"><button class="prodButton infButton">Подробнее</button></a>
+                    <button class="btn buy inCartBtn" data-name="Удобрение Лето">В корзину</button>
+                </article>
+
+                <article class="productCard">
+                    <img src="images.png" alt="Изображение" class="cardImage">
+                    <h3>Саженец Груши</h3>
+                    <p class="desc">Возраст: 2 года. Морозостойкая.</p>
+                    <p class="price">950 ₽</p>
+                    <a href="product.html"><button class="prodButton infButton">Подробнее</button></a>
+                    <button class="btn buy inCartBtn" data-name="Саженец Груши">В корзину</button>
+                </article>
+
+                <article class="productCard">
+                    <img src="images.png" alt="Изображение" class="cardImage">
+                    <h3>Луковицы Тюльпанов</h3>
+                    <p class="desc">В упаковке: 5 шт. Микс цветов.</p>
+                    <p class="price">450 ₽</p>
+                    <a href="product.html"><button class="prodButton infButton">Подробнее</button></a>
+                    <button class="btn buy inCartBtn" data-name="Луковицы Тюльпанов">В корзину</button>
+                </article>
+
+                <article class="productCard">
+                    <img src="images.png" alt="Изображение" class="cardImage">
+                    <h3>Шланг поливочный</h3>
+                    <p class="desc">Длина: 20м. Усиленный.</p>
+                    <p class="price">1 500 ₽</p>
+                    <a href="product.html"><button class="prodButton infButton">Подробнее</button></a>
+                    <button class="btn buy inCartBtn" data-name="Шланг поливочный">В корзину</button>
+                </article>
+
+                <article class="productCard">
+                    <img src="images.png" alt="Изображение" class="cardImage">
+                    <h3>Грабли веерные</h3>
+                    <p class="desc">Материал: Сталь. Для листвы.</p>
+                    <p class="price">680 ₽</p>
+                    <a href="product.html"><button class="prodButton infButton">Подробнее</button></a>
+                    <button class="btn buy inCartBtn" data-name="Грабли веерные">В корзину</button>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <div class="description">
+                <h4>Gardener</h4>
+                <p>Ваш надежный помощник в создании идеального сада.</p>
+            </div>
+            <div class="footerMenu">
+                <h4>Меню</h4>
+                <div class="menuElements">
+                    <a href="index.html">Главная</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="blog.html">Блог</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+            </div>
+            <div class="links">
+                <h4>Мы в сети</h4>
+                <a href=""><img src="VK_Compact_Logo_(2021-present).svg.webp" alt="vk" class="icons"></a>
+                <a href=""><img src="Telegram_logo.svg.webp" alt="tg" class="icons"></a>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="footerContainer2">
+            <p>© 2026 Gardener. Учебный проект, Алешин В.Е.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Блог — Gardener</title>
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <a href="index.html" class="mainHeader"><h1>Gardener</h1></a>
+
+            <button class="burgerBtn" id="burgerBtn">☰</button>
+            <nav class="navigation" id="navigation">
+                <ul class="navList">
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="menuElement"><a href="catalog.html">Каталог</a></li>
+                    <li class="menuElement"><a href="blog.html" class="active">Блог</a></li>
+                    <li class="menuElement"><a href="contacts.html">Контакты</a></li>
+                    <li class="menuElement"><a href="calendar.html">Календарь</a></li>
+                </ul>
+            </nav>
+
+            <div class="headerInteraction">
+                <div class="searchField">
+                    <input type="text" placeholder="Поиск..." class="search">
+                </div>
+                <div class="cartField">
+                    <span class="cart">🛒</span>
+                    <sup class="counter">0</sup>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main class="blogMainContainer">
+        <h1 class="blockHeader">Блог о здоровом саде</h1>
+
+        <section class="blogContainer">
+            <article class="blogCard">
+                <img src="images.png" alt="Картинка" class="blogImg">
+                <div class="blogInfo">
+                    <span class="blogDate">10 апреля 2026</span>
+                    <h3>Лунный календарь садовода на апрель</h3>
+                    <p>Узнайте лучшие дни для посадки плодовых деревьев и кустарников в этом месяце.</p>
+                    <a href="article.html" class="readMore">Читать далее →</a>
+                </div>
+            </article>
+
+            <article class="blogCard">
+                <img src="images.png" alt="Картинка" class="blogImg">
+                <div class="blogInfo">
+                    <span class="blogDate">05 апреля 2026</span>
+                    <h3>Как выбрать идеальный секатор</h3>
+                    <p>Обзор инструментов: на что обратить внимание при покупке инвентаря для обрезки.</p>
+                    <a href="article.html" class="readMore">Читать далее →</a>
+                </div>
+            </article>
+
+            <article class="blogCard">
+                <img src="images.png" alt="Картинка" class="blogImg">
+                <div class="blogInfo">
+                    <span class="blogDate">28 марта 2026</span>
+                    <h3>Секреты раннего урожая редиса</h3>
+                    <p>Простые советы по подготовке почвы и выбору сортов для весенней посадки.</p>
+                    <a href="article.html" class="readMore">Читать далее →</a>
+                </div>
+            </article>
+
+            <article class="blogCard">
+                <img src="images.png" alt="Картинка" class="blogImg">
+                <div class="blogInfo">
+                    <span class="blogDate">20 марта 2026</span>
+                    <h3>Органические удобрения своими руками</h3>
+                    <p>Зачем покупать химию, если можно сделать полезную подкормку из того, что под рукой.</p>
+                    <a href="article.html" class="readMore">Читать далее →</a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <div class="description">
+                <h4>Gardener</h4>
+                <p>Ваш надежный помощник в создании идеального сада.</p>
+            </div>
+            <div class="footerMenu">
+                <h4>Меню</h4>
+                <div class="menuElements">
+                    <a href="index.html">Главная</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="blog.html">Блог</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+            </div>
+            <div class="links">
+                <h4>Мы в сети</h4>
+                <a href=""><img src="VK_Compact_Logo_(2021-present).svg.webp" alt="vk" class="icons"></a>
+                <a href=""><img src="Telegram_logo.svg.webp" alt="tg" class="icons"></a>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="footerContainer2">
+            <p>© 2026 Gardener. Учебный проект, Алешин В.Е.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

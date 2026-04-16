@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Контакты — Gardener</title>
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <a href="index.html" class="mainHeader"><h1>Gardener</h1></a>
+
+            <button class="burgerBtn" id="burgerBtn">☰</button>
+            <nav class="navigation" id="navigation">
+                <ul class="navList">
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="menuElement"><a href="catalog.html">Каталог</a></li>
+                    <li class="menuElement"><a href="blog.html">Блог</a></li>
+                    <li class="menuElement"><a href="contacts.html" class="active">Контакты</a></li>
+                    <li class="menuElement"><a href="calendar.html">Календарь</a></li>
+                </ul>
+            </nav>
+
+            <div class="headerInteraction">
+                <div class="searchField">
+                    <input type="text" placeholder="Поиск..." class="search">
+                </div>
+                <div class="cartField">
+                    <span class="cart">🛒</span>
+                    <sup class="counter">0</sup>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main class="container contactsPage">
+        <h1 class="blockHeader">Свяжитесь с нами</h1>
+
+        <div class="contactsLayout">
+            <section class="contactsInfo">
+                <h2>Наш офис</h2>
+                <ul class="infoList">
+                    <li><b> Адрес:</b> Kargasoksky District, Tomsk Oblast, Russia</li>
+                    <li><b> Телефон:</b> +7 (123) 456-78-90</li>
+                    <li><b> Email:</b> info@gardener.ru</li>
+                    <li><b> Режим работы:</b> Ежедневно: 09:00 — 20:00</li>
+                </ul>
+                
+                <div class="mapContainer">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2941.1819415253694!2d76.53852868685368!3d58.58324270318116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snl!4v1776222776583!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+                    <section class="contacts-form-container">
+                <h2>Напишите нам</h2>
+                <form id="feedbackForm" class="feedbackForm">
+                    <div class="formField">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="formField">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+                    </div>
+                    <div class="formField">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Чем мы можем вам помочь?" required class="formTextArea"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить сообщение</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContainer">
+            <div class="description">
+                <h4>Gardener</h4>
+                <p>Ваш надежный помощник в создании идеального сада.</p>
+            </div>
+            <div class="footerMenu">
+                <h4>Меню</h4>
+                <div class="menuElements">
+                    <a href="index.html">Главная</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="blog.html">Блог</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+            </div>
+            <div class="links">
+                <h4>Мы в сети</h4>
+                <a href=""><img src="VK_Compact_Logo_(2021-present).svg.webp" alt="vk" class="icons"></a>
+                <a href=""><img src="Telegram_logo.svg.webp" alt="tg" class="icons"></a>
+            </div>
+        </div>
+        <hr class="line">
+        <div class="footerContainer2">
+            <p>© 2026 Gardener. Учебный проект, Алешин В.Е.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
