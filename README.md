@@ -1,4 +1,4 @@
-#Учебный проект
+# Учебный проект
 
 Этот проект создан исключительно в учебных целях.  
 
@@ -11,7 +11,7 @@
 
 Реальный бэкенд отсутствует. Любые формы, кнопки и интерактивы — только имитация.
 
-#Educational Project
+# Educational Project
 
 This project was created solely for learning purposes.
 
